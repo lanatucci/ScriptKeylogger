@@ -1,30 +1,28 @@
-
-<h1 align="center" style="font-weight: bold;">Script Keylogger👩‍💻</h1>
-
+<h1 align="center" style="font-weight: bold;">Keylogger Script👩‍💻</h1>
 
 <p align="center">
-    <b>É um script que fica em execução em segundo plano capturando toda a tecla que o usuário digitar. O sofwtare malicioso vai enviar de forma sequencial e automatizada as teclas a cada 60 segundos para o email do atacante.</b>
+    <b>It is a script that runs in the background capturing every key the user types. The malicious software sequentially and automatically sends the captured keystrokes every 60 seconds to the attacker's email.</b>
 </p>
 
-<h2 id="technologies">💻 Tecnologias</h2>
+<h2 id="technologies">💻 Technologies</h2>
 
 - Python 3.14
 - Visual Studio Code
   
-<h2 id="routes">👩‍💻 Pré-Requisitos</h2>
+<h2 id="routes">👩‍💻 Prerequisites</h2>
 
-- Bilbioteca pynput: pip install pynput
-- Biblioteca smtplib: pip install secure-smtplib (envia email)
-- Email com senha do aplicativo Pyhton configurada.
+- pynput library: pip install pynput
+- smtplib library: pip install secure-smtplib (sends email)
+- Email with Python app password configured.
 
-<h2 id="routes">📍 Configuração Email e senha Python</h2>
+<h2 id="routes">📍 Python Email and Password Configuration</h2>
 
-- Criar conta Google padrão só para testes
-- Ativar verificação de duas etapas do email
-- Acessar link para ativar senha do app do Python: https://myaccount.google.com/apppasswords
-- No aplicativo colocar "Python" e a senha será gerada aumotaticamente
-- Colocar essas informações no arquivo keylogger_email.pyw
+- Create a standard Google account only for testing
+- Enable two-step verification for the email
+- Access the link to activate the Python app password: https://myaccount.google.com/apppasswords
+- In the application select "Python" and the password will be automatically generated
+- Insert this information into the file keylogger_email.pyw
 
-<h2 id="routes">Finalizado!!</h2>
+<h2 id="routes">Finished!!</h2>
 
-- É possível observar o resultado na imagem teste.png
+- It is possible to observe the result in the image teste.png
